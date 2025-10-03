@@ -1,0 +1,56 @@
+:root {
+  --bg-color: #f4f6f8;
+  --text-primary: #2c3e50;
+  --text-secondary: #6c757d;
+  --card-bg: #ffffff;
+  --accent: #00796b;
+  --font: 'Poppins', 'Segoe UI', sans-serif;
+}
+
+
+
+.about-page {
+  /* background-color: var(--bg-color); */
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  font-family: var(--font);
+}
+
+.about-card {
+  background-color: var(--card-bg);
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 900px;
+  width: 100%;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e0e0e0;
+  color: var(--text-primary);
+}
+
+.about-card h1 {
+  font-size: 2rem;
+  color: var(--accent);
+  margin-bottom: 20px;
+}
+
+.about-card p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  margin-bottom: 18px;
+  color: var(--text-secondary);
+}
+
+.about-cta {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.about-cta a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.about-cta a:hover {
+  text-decoration: underline;
+}

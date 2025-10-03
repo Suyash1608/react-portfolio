@@ -1,0 +1,54 @@
+:root {
+  --accent: #00796b;
+  --text-primary: #2c3e50;
+  --bg-color: #f9f9f9;
+  --card-bg: #ffffff;
+  --font: 'Poppins', 'Segoe UI', sans-serif;
+}
+
+.training-cert-container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  font-family: var(--font);
+  background-color: var(--card-bg);
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 32px;
+}
+
+.training-section,
+.certification-section {
+  margin-bottom: 30px;
+  padding: 15px;
+  border-left: 4px solid var(--accent);
+  background-color: var(--bg-color);
+  border-radius: 6px;
+}
+
+.training-section-title,
+.certification-section-title {
+  font-size: 1.2rem;
+  color: var(--text-primary);
+  margin-bottom: 10px;
+}
+
+/* Scoped link styles to avoid global a styling */
+.certification-link {
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.certification-link:hover {
+  text-decoration: underline;
+  color: #004d40;
+}
