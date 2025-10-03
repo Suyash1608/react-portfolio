@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/Experience.css';
+import './Styles/Experience.css';
 import experienceData from '../../assets/experienceData';
 import { FaBuilding, FaBriefcase, FaCalendarAlt, FaMapMarkerAlt, FaFileAlt } from 'react-icons/fa';
 const Experience = () => {

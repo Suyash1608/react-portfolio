@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/Education.css';
+import './Styles/Education.css';
 import { FaUniversity, FaCalendarAlt, FaMapMarkerAlt, FaBook } from 'react-icons/fa';
 import educationData from '../../assets/educationData';
 const Education = () => {
